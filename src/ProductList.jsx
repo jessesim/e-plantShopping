@@ -15,7 +15,7 @@ function ProductList() {
             category: "Air Purifying Plants",
             plants: [
                 {
-                    name: "Snake Plant",
+                    name: "Snake Plant!!!",
                     image: "https://cdn.pixabay.com/photo/2021/01/22/06/04/snake-plant-5939187_1280.jpg",
                     description: "Produces oxygen at night, improving air quality.",
                     cost: "$15"
@@ -269,7 +269,7 @@ function ProductList() {
                <a href="/" style={{textDecoration:'none'}}>
                         <div>
                     <h3 style={{color:'white'}}>Paradise Nursery</h3>
-                    <i style={{color:'white'}}>Where Green Meets Serenity!!!!!!</i>
+                    <i style={{color:'white'}}>Where Green Meets Serenity</i>
                     </div>
                     </a>
                 </div>
