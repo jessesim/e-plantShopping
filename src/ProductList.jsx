@@ -269,7 +269,7 @@ function ProductList() {
                <a href="/" style={{textDecoration:'none'}}>
                         <div>
                     <h3 style={{color:'white'}}>Paradise Nursery</h3>
-                    <i style={{color:'white'}}>Where Green Meets Serenity</i>
+                    <i style={{color:'white'}}>Where Green Meets Serenity!!!!!!</i>
                     </div>
                     </a>
                 </div>
