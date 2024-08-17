@@ -250,7 +250,7 @@ function ProductList() {
     const handleContinueShopping = (e) => {
     e.preventDefault();
     setShowPlants(true); // set ShowPlants to true when ContinueShopping is clicked
-    setShowCart(false); // Hide the cart when ContinueShopping is clicked
+    setShowCart(false); // Hide the cart when ContinueShopping is clicked... 
   };
     const handleAddToCart = (plant) => {
     dispatch(addItem(plant));
