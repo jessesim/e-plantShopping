@@ -6,7 +6,7 @@ import { addItem } from './CartSlice';
 
 function ProductList() {
     const [showCart, setShowCart] = useState(false); 
-    const [showPlants, setShowPlants] = useState(false); // State to control the visibility of the About Us page
+    const [showPlants, setShowPlants] = useState(false); 
     const [addedToCart, setAddedToCart] = useState(false);
     const dispatch = useDispatch();
 
@@ -249,7 +249,8 @@ function ProductList() {
 
     const handleContinueShopping = (e) => {
     e.preventDefault();
-    setShowCart(false);
+    setShowPlants(true); // set ShowPlants to true when ContinueShopping is clicked
+    setShowCart(false); // Hide the cart when ContinueShopping is clicked
   };
     const handleAddToCart = (plant) => {
     dispatch(addItem(plant));
